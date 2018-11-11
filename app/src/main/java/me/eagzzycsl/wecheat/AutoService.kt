@@ -25,7 +25,7 @@ class AutoService : AccessibilityService() {
             if(rootInActiveWindow!=null){
                 ActionQueue.react(rootInActiveWindow);
             }else {
-                MyLogger.Exception.i("rootInActiveWindow == null")
+                MyLogger.Exception.e("rootInActiveWindow == null")
             }
         }
     }
